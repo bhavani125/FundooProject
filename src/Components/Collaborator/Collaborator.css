@@ -1,0 +1,64 @@
+.Collaborator{
+    /* border :2px  solid red; */
+    width:50vw;
+    height:45vh;
+   margin-left: 450px;
+   display: flex;
+   flex-direction: column;
+    
+   }
+     .inputformes{
+    /* border :4px  solid  yellow; */
+    display: flex;
+    flex-direction: column;
+}
+.MainName{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.MainHead{
+    display: flex;
+    justify-content: flex-start;
+ 
+}
+.AddingEmails{
+    display: flex;
+    flex-direction: column;
+
+}
+.repetating{
+    display: flex;
+}
+#itemlogo{
+    /* border: 2px solid red; */
+    width:37px;
+    height:37px;
+}
+.rowname{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.secondField{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+ 
+}
+.footerdown{
+    /* border:3px solid green; */
+    margin-top: 20px;
+    height:20%;
+    background-color: gainsboro;
+    display: flex;   
+}
+.mains{
+    /* border:3px solid green; */
+width:30%;
+display: flex;
+justify-content: space-between;
+position: relative;
+left:400px;
+align-items: center;
+}

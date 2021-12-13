@@ -1,0 +1,98 @@
+.HeaderSection1{
+    border: 1px solid lightgray;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Section1{
+    /* border:4px solid green; */
+   width:12%;
+   height:70%;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.Section1 img{
+    /* border: 2px solid red; */
+    height: 20px;
+
+}
+#logo{
+    /* border: 2px solid pink; */
+    height: 40px;
+    width:40px  
+}
+.Section2{
+    /* border: 2px solid black; */
+     height: 90%;
+    width:75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.SearchSec{
+    /* border: 2px solid  red; */
+    height: 93%;
+    width:80%;
+    padding-left: 40px;
+    /* padding-top: 8px; */
+  
+}
+#search{
+   /* border: 2px solid red; */
+   width:20px;
+   height:20px;
+   padding-left: 10px;
+ 
+}
+.IconSec{
+    /* border: 2px solid pink; */
+    height: 80%;
+    width:15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#refresh{
+    /* border: 2px solid red; */
+    width:25px;
+    height:25px;
+}
+#List{
+    /* border: 2px solid red; */
+    width:25px;
+    height:25px;
+}
+#settings{
+    /* border: 2px solid red; */
+    width:25px;
+    height:25px;
+}
+.Section3{
+    /* border: 2px solid black; */
+    height: 90%;
+    width:6%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#apps{
+    /* border: 2px solid red; */
+    width:25px;
+    height:25px;
+}
+#account{
+    /* border: 2px solid red; */
+    width:25px;
+    height:25px;
+}
+@media only screen and (max-device-width: 400px) {
+  .HeaderSection1{
+    display: none;
+}
+}

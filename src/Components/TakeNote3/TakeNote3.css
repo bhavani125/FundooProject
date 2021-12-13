@@ -1,0 +1,78 @@
+/* .MainNote{
+    border:2px solid red;
+    display: flex;
+    width:100vw;
+    height:100vh;
+
+} */
+.Container3{
+   border :1px  solid lightgray ;
+   width:20vw;
+   height:20vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-top:30px;
+   border-radius: 5px;
+
+   
+}
+.sym{
+    /* border :2px  solid green; */
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+.inputform3{
+    /* border :2px  solid  red; */
+    height:55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.input3{
+    /* border :2px  solid  green; */
+    height:40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+@media only screen and (max-device-width: 400px) {
+    .Container3{
+        width:80vw;
+    }
+    .inputform3{
+        /* border :2px  solid blue; */
+        height:65%;
+        
+    }
+    
+      #mainbg{
+            /* border :2px  solid blue; */
+            width:320px;
+            position: absolute;
+            left: 38%;
+        }
+           .iconBox{
+         /* border :2px  solid blue; */
+         width:280px;
+         display: flex;
+         flex-direction: column;
+                 
+    }
+    .sym{
+        /* border:2px solid red; */
+        display: flex;
+        width:100%;
+        align-items: space-between;
+    }
+    .updateButton{
+        /* border :2px  solid blue; */
+        width:20%;
+        position: relative;
+        left: 80%;
+        margin-top: 2px;
+    }
+}

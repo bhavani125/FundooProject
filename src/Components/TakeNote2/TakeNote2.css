@@ -1,0 +1,122 @@
+.Container2{
+   border :1px  solid  lightgray;
+   width:44vw;
+   height:25vh;
+   margin-left: 450px;
+   margin-top: 40px; 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   
+}
+.inputform2{
+    /* border :2px  solid  red; */
+    height:63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.input1{
+    /* border :2px  solid  green; */
+    height:40px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+.multipleIcons{
+    display: flex;
+}
+.symbols{
+    /* border :2px  solid red; */
+    height: 35px;
+    display: flex;
+    justify-content: space-between
+}
+.sym1{
+    /* border :2px  solid green; */
+    width: 65%;
+    display: flex;
+    justify-content: space-around;
+  
+}
+#items1{
+    /* border: 2px solid red; */
+    width:20px;
+    height:20px;
+}
+#items2{
+    border: 2px solid red;
+    width:20px;
+    height:20px;
+}
+/* #items3{
+    border: 2px solid red;
+    width:20px;
+    height:20px;
+} */
+#items4{
+    /* border: 2px solid red; */
+    width:20px;
+    height:20px;
+}
+#items5{
+    /* border: 2px solid red; */
+    width:20px;
+    height:20px;
+}
+#items6{
+    /* border: 2px solid red; */
+    width:20px;
+    height:20px;
+}
+
+#items7{
+    /* border: 2px solid red; */
+    width:20px;
+    height:20px;
+}
+#items8{
+    /* border: 2px solid red; */
+    width:20px;
+    height:20px;
+}
+
+.title{
+    /* border :2px  solid green; */
+    width: 22%; 
+    background-color: transparent;
+}
+
+@media only screen and (max-device-width: 400px) {
+    .Container2{
+        width:80vw;
+        height:30vh;
+        margin-left: 80px;
+        
+     }
+     .symbols{
+        /* border :2px  solid red; */
+        height: 54px;
+        display: flex;
+        flex-direction: column;
+    }
+
+     .sym1{
+        /* border :2px  solid red; */
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+      
+    }
+    .title{
+        /* border :2px  solid green; */
+        width: 20%; 
+        position: relative;
+        left:80%;
+
+        background-color: transparent;
+    }
+    
+    
+}
+
